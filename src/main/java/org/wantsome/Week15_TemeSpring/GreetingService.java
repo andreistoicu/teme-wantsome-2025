@@ -1,4 +1,4 @@
-package org.wantsome;
+package org.wantsome.Week15_TemeSpring;
 
 import org.springframework.stereotype.Component;
 

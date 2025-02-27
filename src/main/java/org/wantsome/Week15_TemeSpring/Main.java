@@ -1,6 +1,4 @@
-package org.wantsome;
-
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+package org.wantsome.Week15_TemeSpring;
 
 public class Main {
     public static void main(String[] args) {
