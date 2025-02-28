@@ -8,7 +8,7 @@ Define two simple Java classes: HelloWorldService and GreetingService.
 
 HelloWorldService should have a method sayHello() that prints "Hello, World!".
 
-GreetingService should have a method greet(String name) that prints "Hello, [name]!".
+GreetingService should have a method c that prints "Hello, [name]!".
 
 Annotate these classes with @Service or @Component to make them Spring beans.
 
