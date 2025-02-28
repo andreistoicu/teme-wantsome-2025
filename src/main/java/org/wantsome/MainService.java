@@ -2,6 +2,8 @@ package org.wantsome;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.wantsome.Week15_TemeSpring.GreetingService;
+import org.wantsome.Week15_TemeSpring.HelloWorldService;
 
 import javax.annotation.PostConstruct;
 
