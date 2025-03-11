@@ -42,7 +42,4 @@ public class MainService {
         databaseService.disconnect();
         paymentProcessors.processPayment(100.0);
     }
-
-
-
 }
