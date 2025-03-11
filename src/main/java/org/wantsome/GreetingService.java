@@ -1,6 +1,5 @@
 package org.wantsome;
 
-
 import org.springframework.stereotype.Service;
 
 @Service
