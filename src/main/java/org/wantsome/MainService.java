@@ -20,7 +20,6 @@ public class MainService {
     private HelloWorldService helloWorldService;
     @Autowired
     private SingleCounterService singletonCounter2;
-
     @Autowired
     private SingleCounterService singletonCounter1;
     @Autowired
@@ -28,22 +27,18 @@ public class MainService {
     @Autowired
     private CounterService prototypeCounter2;
 
- private final UserService userService;
- private final DataBaseService dataBaseService;
- private final PaymentProcessor paymentProcessor;
+    private final UserService userService;
+    private final DataBaseService dataBaseService;
+    private final PaymentProcessor paymentProcessor;
 
-
- @Autowired
- public MainService(UserService userService,DataBaseService dataBaseService,PaymentProcessor paymentProcessor) {
-     this.userService = userService;
-     this.dataBaseService = dataBaseService;
-     this.paymentProcessor = paymentProcessor;
-
-
- }
+    @Autowired
+    public MainService(UserService userService, DataBaseService dataBaseService, PaymentProcessor paymentProcessor) {
+        this.userService = userService;
+        this.dataBaseService = dataBaseService;
+        this.paymentProcessor = paymentProcessor;
+    }
 
     @PostConstruct
-
     public void init() {
 
         helloWorldService.sayHello();

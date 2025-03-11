@@ -10,7 +10,6 @@ public class PaymentProcessor {
     private final PaymentService paymentService;
 
     @Autowired
-
     public PaymentProcessor(@Qualifier("creditCard")
                                  PaymentService paymentService) {
         this.paymentService = paymentService;

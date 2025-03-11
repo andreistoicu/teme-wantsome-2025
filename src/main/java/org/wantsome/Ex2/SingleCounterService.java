@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 @Scope("singleton")
 public class SingleCounterService {
 
-
         private int counter = 0;
 
         public int increment(){
