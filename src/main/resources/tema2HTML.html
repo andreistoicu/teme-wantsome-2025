@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tema numarul 2 HTML</title>
+</head>
+<body>
+<h3>Formularul lui Valentin</h3>
+<form action="/submit" method="post">
+
+    <label for="firstname">First Name:</label><br>
+    <input type="text" name="firstname" id="firstname" required>
+    <br><br>
+
+    <label for="lastname">Last Name:</label><br>
+    <input type="text" name="lastname" id="lastname" required>
+    <br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" name="email" id="email" required>
+    <br><br>
+
+    <label for="password">*Password:*</label><br>
+    <input type="password" name="password" id="password" required>
+    <br><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" name="dob" id="dob" required>
+    <br><br>
+
+    <label>Subscription Plan</label>
+    <input type="radio" id="basic" name="plan" value="basic">
+    <label for="basic">Basic:</label>
+    <input type="radio" id="standard" name="plan" value="standard">
+    <label for="standard">Standard:</label>
+    <input type="radio" id="premium" name="plan" value="premium">
+    <label for="premium">Premium:</label>
+    <br><br>
+
+    <label>Interests</label>
+    <input type="checkbox" id="interest1" name="interests" value="Technology">
+    <label for="interest1">Travelling</label>
+    <input type="checkbox" id="interest2" name="interests" value="Sports">
+    <label for="interest2">Reading</label>
+    <input type="checkbox" id="interest3" name="interests" value="Arts">
+    <label for="interest3">Coding</label>
+    <br><br>
+
+    <button type="submit">Submit data</button>
+    <br><br>
+
+</form>
+</body>
+</html>
