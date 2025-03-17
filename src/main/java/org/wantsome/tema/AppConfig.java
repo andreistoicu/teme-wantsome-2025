@@ -1,4 +1,4 @@
-package org.wantsome.Week15_TemeSpring;
+package org.wantsome.tema;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

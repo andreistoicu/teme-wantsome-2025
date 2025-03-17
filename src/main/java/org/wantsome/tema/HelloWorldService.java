@@ -1,4 +1,4 @@
-package org.wantsome.Week15_TemeSpring;
+package org.wantsome.tema;
 
 import org.springframework.stereotype.Service;
 
