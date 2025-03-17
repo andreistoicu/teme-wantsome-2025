@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>My Form</title>
+    </head>
+    <body>
+      <h3>My Form</h3>
+      <form action="/submit" method="post">
+      <label for="First_Name">First Name:</label>
+      <input type="text" name="First Name" id="First_Name" required><br>
+      <label for="Last Name">Last Name:</label>
+      <input type="text" name="Last Name" id="Last Name" required><br>
+      <label for="Email">Email:</label>
+      <input type="email" name="email" id="Email" required><br>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" onsubmit="password"><br>
+      <label for="dob">Date:</label>
+      <input type="date" name="dob" id="dob" required><br>
+      <br><br>
+
+      <label>Subscription Plan</label>
+      <input type="radio" id="basic" name="plan" value="basic">
+      <label for="basic">Basic</label>
+      <input type="radio" id="standard" name="plan"  value="standard">
+      <label for="standard">Standard</label>
+      <input type="radio" id="premium" name="plan" value="premium">
+      <label for="premium">Premium</label>
+      <br><br>
+
+      <label>Interests</label>
+      <input type="checkbox" id="tech" name="interest" value="tech">
+      <label for="tech">Technology</label>
+      <input type="checkbox" id="sports" name="interest" value="sports">
+      <label for="sports">Sports</label>
+      <input type="checkbox" id="arts" name="interest" value="arts">
+      <lavel type="arts">Arts</lavel>
+      <br><br>
+
+      <button type="submit">Register</button>
+      <br><br>
+    </form>
+  </body>
+</html>
