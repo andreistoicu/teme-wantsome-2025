@@ -1,4 +1,6 @@
-package org.wantsome.Week15_TemeSpring;
+
+@SpringBootApplication
+
 
 public class Main {
     public static void main(String[] args) {
