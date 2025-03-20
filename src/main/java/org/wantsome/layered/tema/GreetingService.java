@@ -1,4 +1,4 @@
-package org.wantsome.tema;
+package org.wantsome.layered.tema;
 
 import org.springframework.stereotype.Component;
 

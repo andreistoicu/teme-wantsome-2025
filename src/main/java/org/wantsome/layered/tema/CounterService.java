@@ -1,4 +1,4 @@
-package org.wantsome.tema;
+package org.wantsome.layered.tema;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;

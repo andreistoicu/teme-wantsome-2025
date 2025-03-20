@@ -1,4 +1,4 @@
-package org.wantsome;
+package org.wantsome.layered;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
