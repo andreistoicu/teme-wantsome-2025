@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc77d3f6-5303-4da6-9ed3-cd0bf1263ad6" name="Changes" comment="bean controller push inainte de tema 2 html" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Valentin-Chiriac-tema1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;valentinchiriac&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/andreistoicu/teme-wantsome-2025.git&quot;,
+    &quot;accountId&quot;: &quot;7ac60071-1647-487f-8d0f-6357a2e12cec&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tcrslslEIviuZN6FHcArztgYDR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.MainApp.executor": "Run",
+    "Application.SpringExerciseApplication.executor": "Run",
+    "Application.org.wantsome.layered.MainApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/valentin.chiriac/teme-wantsome-2025",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wantsome.MainApp" />
+      <module name="SpringProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wantsome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringExerciseApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wantsome.Week15_TemeSpring.SpringExerciseApplication" />
+      <module name="SpringProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.wantsome.layered.MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.wantsome.layered.MainApp" />
+      <module name="SpringProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.wantsome.layered.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="teme-wantsome-2025" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="teme-wantsome-2025" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.org.wantsome.layered.MainApp" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.SpringExerciseApplication" />
+        <item itemvalue="Application.SpringExerciseApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc77d3f6-5303-4da6-9ed3-cd0bf1263ad6" name="Changes" comment="" />
+      <created>1740662413838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740662413838</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Test Commit.&#10;Confirma te rog ca sunt create bine branchul si clasele in folderul care trebuie. Multumesc.">
+      <option name="closed" value="true" />
+      <created>1740663307577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740663307577</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test Commit.&#10;Confirma te rog ca sunt create bine branchul si clasele in folderul care trebuie. Multumesc.">
+      <option name="closed" value="true" />
+      <created>1740666112622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740666112622</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Spring Teme Exercitiul 1">
+      <option name="closed" value="true" />
+      <created>1740738617896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740738617896</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Spring Teme Exercitiul 1">
+      <option name="closed" value="true" />
+      <created>1740738809216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740738809216</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Tema HTML nr2&#10;Nu reusesc sa rulez in localhost codul ca sa pot vedea outputul. Am folosit un editor de html online ca sa pot vedea ce iese si pare ca a mers. Inca odata multumesc pentru pasii expliciti pe care ia-i dat si pentru exemplul de data asta foarte apropiat cu ce s-a facut la clasa. Apreciez!&#10;PS: daca ma puteti ajuta cu input sa pot rula local, multumesc inca odata.">
+      <option name="closed" value="true" />
+      <created>1742050564612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742050564612</updated>
+    </task>
+    <task id="LOCAL-00006" summary="butonul avea alt label. Modificat :)">
+      <option name="closed" value="true" />
+      <created>1742050693203</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742050693203</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Branch original cu modificarile mele">
+      <option name="closed" value="true" />
+      <created>1742212533678</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742212533678</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Push 20.03">
+      <option name="closed" value="true" />
+      <created>1742464299594</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742464299594</updated>
+    </task>
+    <task id="LOCAL-00009" summary="bean controller push inainte de tema 2 html">
+      <option name="closed" value="true" />
+      <created>1742554279553</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1742554279554</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Commit.&#10;Confirma te rog ca sunt create bine branchul si clasele in folderul care trebuie. Multumesc." />
+    <MESSAGE value="Spring Teme Exercitiul 1" />
+    <MESSAGE value="Tema HTML nr2&#10;Nu reusesc sa rulez in localhost codul ca sa pot vedea outputul. Am folosit un editor de html online ca sa pot vedea ce iese si pare ca a mers. Inca odata multumesc pentru pasii expliciti pe care ia-i dat si pentru exemplul de data asta foarte apropiat cu ce s-a facut la clasa. Apreciez!&#10;PS: daca ma puteti ajuta cu input sa pot rula local, multumesc inca odata." />
+    <MESSAGE value="butonul avea alt label. Modificat :)" />
+    <MESSAGE value="Branch original cu modificarile mele" />
+    <MESSAGE value="Push 20.03" />
+    <MESSAGE value="bean controller push inainte de tema 2 html" />
+    <option name="LAST_COMMIT_MESSAGE" value="bean controller push inainte de tema 2 html" />
+  </component>
+</project>
