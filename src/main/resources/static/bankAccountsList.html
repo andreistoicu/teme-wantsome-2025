@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Accounts List</title>
+</head>
+<body>
+<h2>Bank Accounts List</h2>
+<table border="5">
+  <tr>
+    <th>Account Number</th>
+    <th>Account Holder</th>
+    <th>Balance</th>
+  </tr>
+  <tr th:each="acc : ${accounts}">
+    <td th:text="${acc.accountNumber}"></td>
+    <td th:text="${acc.accountHolder}"></td>
+    <td th:text="${acc.balance}"></td>
+  </tr>
+</table>
+
+</body>
+</html>

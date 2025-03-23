@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Account Form</title>
+</head>
+<body>
+    <h2>Add Bank Account</h2>
+    <form th:action="@{/bank-accounts}" th:object="${bankAccountForm}" method="post">
+        <label>Account Number:</label>
+        <input type="text" th:field="*{accountNumber}" />
+        <br/>
+
+        <label>Account Holder:</label>
+        <input type="text" th:field="*{accountHolder}" />
+        <br/>
+
+        <label>Balance:</label>
+        <input type="number" th:field="*{balance}" />
+        <br/>
+
+        <button type="submit">Add Account</button>
+    </form>
+
+</body>
+</html>

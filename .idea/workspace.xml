@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc77d3f6-5303-4da6-9ed3-cd0bf1263ad6" name="Changes" comment="bean controller push inainte de tema 2 html">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/BeanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/personForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/BankAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/BankAccountForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bankAccountForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bankAccountsList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -30,7 +29,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Valentin-Chiriac-tema1" />
+        <entry key="$PROJECT_DIR$" value="Valentin_Chiriac_tema2_MVCSpring" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +54,7 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2tcrslslEIviuZN6FHcArztgYDR" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -68,9 +67,12 @@
     "Application.MainApp.executor": "Run",
     "Application.SpringExerciseApplication.executor": "Run",
     "Application.org.wantsome.layered.MainApp.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven.spring-fundamentals-wantsome [clean].executor": "Run",
+    "Maven.spring-fundamentals-wantsome [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Valentin__Chiriac__tema2__MVCSpring",
+    "git-widget-placeholder": "Tudosa-Nicu-Tema2-MVCSpring",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/valentin.chiriac/teme-wantsome-2025",
     "project.structure.last.edited": "SDKs",
@@ -81,6 +83,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -89,7 +92,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wantsome.Main" />
-      <module name="spring-fundamentals-wantsome" />
+      <module name="SpringProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.wantsome.*" />
@@ -153,9 +156,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SpringExerciseApplication" />
         <item itemvalue="Application.org.wantsome.layered.MainApp" />
         <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.SpringExerciseApplication" />
         <item itemvalue="Application.SpringExerciseApplication" />
       </list>
     </recent_temporary>
@@ -243,6 +246,29 @@
     </task>
     <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/tudosa_nicu_teme_spring" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Commit.&#10;Confirma te rog ca sunt create bine branchul si clasele in folderul care trebuie. Multumesc." />
