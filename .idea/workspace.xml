@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc77d3f6-5303-4da6-9ed3-cd0bf1263ad6" name="Changes" comment="bean controller push inainte de tema 2 html">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/BeanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/personForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fc77d3f6-5303-4da6-9ed3-cd0bf1263ad6" name="Changes" comment="follow along clasa MVC ora 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/GreetingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/personForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/personForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -68,6 +76,9 @@
     "Application.MainApp.executor": "Run",
     "Application.SpringExerciseApplication.executor": "Run",
     "Application.org.wantsome.layered.MainApp.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven.spring-fundamentals-wantsome [clean].executor": "Run",
+    "Maven.spring-fundamentals-wantsome [install].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Valentin__Chiriac__tema2__MVCSpring",
@@ -241,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742554279554</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="follow along clasa MVC ora 1">
+      <option name="closed" value="true" />
+      <created>1742569162479</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742569162479</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -253,6 +272,7 @@
     <MESSAGE value="Push 20.03" />
     <MESSAGE value="bean controller push inainte de tema 2 html" />
     <MESSAGE value="second commit Valentin tema 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit Valentin tema 2" />
+    <MESSAGE value="follow along clasa MVC ora 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="follow along clasa MVC ora 1" />
   </component>
 </project>
