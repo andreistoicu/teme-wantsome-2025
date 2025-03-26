@@ -15,6 +15,10 @@ public class Product {
         this.available = available;
     }
 
+    public Product() {
+
+    }
+
     public Long getId() {
         return id;
     }

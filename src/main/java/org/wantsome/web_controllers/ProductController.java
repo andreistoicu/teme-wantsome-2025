@@ -4,6 +4,9 @@ package org.wantsome.web_controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.wantsome.domain_dao.Product;
 import org.wantsome.service.ProductService;
 
 @Controller
@@ -17,7 +20,22 @@ public class ProductController {
 
     @GetMapping("/products")
     public String products(Model model){
-        model.addAttribute("products", productService.findProducts());
+        model.addAttribute("products", productService.findAll());
+        return "products";
+    }
+
+    @GetMapping("/productForm")
+    public String productForm(Model model){
+        model.addAttribute("product", new Product());
+        return "productForm";
+    }
+
+    @PostMapping("/submitProduct")
+    public String saveProduct(@ModelAttribute Product product, Model model){
+        productService.saveProduct(product);
+
+        model.addAttribute("title", "Products");
+        model.addAttribute("products", productService.findAll());
         return "products";
     }
 }

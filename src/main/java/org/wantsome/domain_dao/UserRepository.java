@@ -7,11 +7,21 @@ import java.util.List;
 
 @Repository
 public class UserRepository {
+
+    static long idCount = 1L;
+
     public List<User> findAll() {
         return List.of(
                 new User(1L, "Ion Dolanescu", "ion@dol.com"),
                 new User(2L, "Petrica Dolanescu", "petru@dol.com"),
                 new User(3L, "Floarea Dolanescu", "floarea@dol.com")
         );
+    }
+
+    public Long save(User user){
+        user.setId(idCount++);
+        System.out.println("User saved " + user);
+
+        return user.getId();
     }
 }

@@ -5,6 +5,7 @@
     <title>Products list</title>
 </head>
 <tbody>
+<div th:insert="~{fragments.html :: nav}"></div>
 <h1>Products List</h1>
 <table>
     <tr>
@@ -21,6 +22,7 @@
         <td th:if="${product.available}" th:text="'Product can be ordered'"></td>
     </tr>
 </table>
+<div th:insert="~{fragments.html :: nav}"></div>
 
 </tbody>
 </html>
