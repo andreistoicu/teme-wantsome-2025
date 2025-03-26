@@ -6,7 +6,7 @@
 </head>
 <body>
     <h2>Add Bank Account</h2>
-    <form th:action="@{/bank-accounts}" th:object="${bankAccountForm}" method="post">
+    <form th:action="@{/bank-accounts-list}" th:object="${bankAccountForm}" method="post">
         <label>Account Number:</label>
         <input type="text" th:field="*{accountNumber}" />
         <br/>

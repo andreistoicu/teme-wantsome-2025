@@ -19,7 +19,7 @@ public class BankAccountController {
     public String showForm(Model model){
         model.addAttribute("bankAccountForm", new BankAccountForm());
         model.addAttribute("accounts", bankAccounts);
-        return "bankaccountform";
+        return "bankAccountForm";
     }
 
     @PostMapping("/bank-accounts-list")
