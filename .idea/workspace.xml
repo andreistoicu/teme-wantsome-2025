@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc77d3f6-5303-4da6-9ed3-cd0bf1263ad6" name="Changes" comment="bean controller push inainte de tema 2 html">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/BankAccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/BankAccountForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bankAccountForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bankAccountsList.html" afterDir="false" />
+    <list default="true" id="fc77d3f6-5303-4da6-9ed3-cd0bf1263ad6" name="Changes" comment="Nu reusesc sa fac la @PostMapping sa imi redirectioneze catre bankAccountsList.html desi imi apare pe local host, revin cu update maine">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/databases/cotrollers/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/databases/cotrollers/StudentsCotroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/databases/dao_repository_domain/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/databases/dao_repository_domain/StudentJpaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/databases/dao_repository_domain/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/databases/dao_repository_domain/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/databases/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/databases/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/courses/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/courses/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/students/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/students/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/students/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="HTML File" />
       </list>
@@ -29,7 +40,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Valentin_Chiriac_tema2_MVCSpring" />
+        <entry key="$PROJECT_DIR$" value="Tudosa-Nicu-Tema2-MVCSpring" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +55,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/andreistoicu/teme-wantsome-2025.git&quot;,
-    &quot;accountId&quot;: &quot;7ac60071-1647-487f-8d0f-6357a2e12cec&quot;
+    &quot;accountId&quot;: &quot;d91858f6-352b-48a5-8dfb-d58ecacb23ff&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -68,20 +79,26 @@
     "Application.SpringExerciseApplication.executor": "Run",
     "Application.org.wantsome.layered.MainApp.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
     "Maven.spring-fundamentals-wantsome [clean].executor": "Run",
     "Maven.spring-fundamentals-wantsome [install].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Tudosa-Nicu-Tema2-MVCSpring",
+    "git-widget-placeholder": "Tudosa-Nicu-Tema4-DB__Spring",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/valentin.chiriac/teme-wantsome-2025",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.55402297"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/students" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/students/src/main/resources/templates/students" />
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
@@ -244,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742554279554</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Nu reusesc sa fac la @PostMapping sa imi redirectioneze catre bankAccountsList.html desi imi apare pe local host, revin cu update maine">
+      <option name="closed" value="true" />
+      <created>1742758822400</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742758822400</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +304,7 @@
     <MESSAGE value="Push 20.03" />
     <MESSAGE value="bean controller push inainte de tema 2 html" />
     <MESSAGE value="second commit Valentin tema 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit Valentin tema 2" />
+    <MESSAGE value="Nu reusesc sa fac la @PostMapping sa imi redirectioneze catre bankAccountsList.html desi imi apare pe local host, revin cu update maine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nu reusesc sa fac la @PostMapping sa imi redirectioneze catre bankAccountsList.html desi imi apare pe local host, revin cu update maine" />
   </component>
 </project>
