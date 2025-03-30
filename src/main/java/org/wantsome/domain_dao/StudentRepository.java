@@ -1,0 +1,29 @@
+package org.wantsome.domain_dao;
+
+import org.springframework.stereotype.Repository;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Repository
+public class StudentRepository {
+    private List<Student> students;
+    private long idCount =134L;
+
+    public StudentRepository(){ students = new ArrayList<>();}
+
+    public List<Student> findStudents(){
+        return List.of(
+                new Student(23L, "Valentin", "Chiriac", "valentin@email.com", "Alpinism, Gradinarit"),
+                new Student(34L, "Catinca", "Iliescu", "catinca@email.com", "Spring,Java"),
+                new Student(67L, "Emil", "Voicescu", "emil@email.com", "Gradinarit, Java")
+        );
+    }
+    public List<Student> findAll(){
+        return students;
+    }
+    public void save(Student student){
+        student.setId(idCount++);
+        System.out.println("Student saved " + student);
+    }
+}

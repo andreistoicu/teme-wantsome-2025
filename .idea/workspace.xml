@@ -70,25 +70,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MainApp.executor": "Run",
-    "Application.SpringExerciseApplication.executor": "Run",
-    "Application.org.wantsome.layered.MainApp.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Maven.spring-fundamentals-wantsome [clean].executor": "Run",
-    "Maven.spring-fundamentals-wantsome [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Valentin__Chiriac__tema2__MVCSpring",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/valentin.chiriac/teme-wantsome-2025",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringExerciseApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.wantsome.layered.MainApp.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.spring-fundamentals-wantsome [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-fundamentals-wantsome [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Valentin__Chiriac__tema2__MVCSpring&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/valentin.chiriac/teme-wantsome-2025&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
@@ -100,7 +100,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.wantsome.Main" />
-      <module name="spring-fundamentals-wantsome" />
+      <module name="SpringProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.wantsome.*" />
