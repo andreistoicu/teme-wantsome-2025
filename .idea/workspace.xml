@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc77d3f6-5303-4da6-9ed3-cd0bf1263ad6" name="Changes" comment="follow along clasa MVC ora 1">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/productForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userForm.html" afterDir="false" />
+    <list default="true" id="fc77d3f6-5303-4da6-9ed3-cd0bf1263ad6" name="Changes" comment="Spring Assignment 4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/courseForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/studentForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/studentList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/web_controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/domain_dao/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wantsome/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wantsome/service/CourseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +33,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Valentin-Chiriac-tema1" />
+        <entry key="$PROJECT_DIR$" value="Valentin_Chiriac_tema2_MVCSpring" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,7 +76,7 @@
     &quot;Maven.spring-fundamentals-wantsome [install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Valentin__Chiriac__tema2__MVCSpring&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Valentin__Chiriac__Spring__Assignment4&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/valentin.chiriac/teme-wantsome-2025&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
@@ -90,6 +85,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.wantsome.web_controllers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static" />
     </key>
@@ -268,8 +266,27 @@
       <option name="project" value="LOCAL" />
       <updated>1742919899098</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Spring Assignment 4">
+      <option name="closed" value="true" />
+      <created>1743339684746</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743339684746</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Commit.&#10;Confirma te rog ca sunt create bine branchul si clasele in folderul care trebuie. Multumesc." />
@@ -281,6 +298,7 @@
     <MESSAGE value="bean controller push inainte de tema 2 html" />
     <MESSAGE value="second commit Valentin tema 2" />
     <MESSAGE value="follow along clasa MVC ora 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="follow along clasa MVC ora 1" />
+    <MESSAGE value="Spring Assignment 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Assignment 4" />
   </component>
 </project>

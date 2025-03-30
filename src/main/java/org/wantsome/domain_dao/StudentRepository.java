@@ -14,7 +14,7 @@ public class StudentRepository {
 
     public List<Student> findStudents(){
         return List.of(
-                new Student(23L, "Valentin", "Chiriac", "valentin@email.com", "Alpinism, Gradinarit"),
+                new Student(23L, "Valentin", "Chiriac", "valentin@email.com", "Alpinism"),
                 new Student(34L, "Catinca", "Iliescu", "catinca@email.com", "Spring,Java"),
                 new Student(67L, "Emil", "Voicescu", "emil@email.com", "Gradinarit, Java")
         );
@@ -22,8 +22,9 @@ public class StudentRepository {
     public List<Student> findAll(){
         return students;
     }
-    public void save(Student student){
+    public Long save(Student student){
         student.setId(idCount++);
         System.out.println("Student saved " + student);
+        return null;
     }
 }

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Courses list</title>
+</head>
+<body>
+  <h1>Courses List</h1>
+    <ul>
+      <li th:each="course: ${students}" th:text="${course}" > Courses </li>
+    </ul>
+</body>
+</html>

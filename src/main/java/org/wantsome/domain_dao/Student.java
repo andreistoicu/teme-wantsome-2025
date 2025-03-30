@@ -11,6 +11,8 @@ public class Student {
         private String email;
         private List<Course> courses;
 
+        public Student() {        }
+
         public Long getId() {
                 return id;
         }
