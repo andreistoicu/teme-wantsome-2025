@@ -12,12 +12,12 @@ public class CourseRepository {
 
     public CourseRepository() { courses = new ArrayList<>(); }
 
-    public List<Course>() findCourses(){
+    public List<Course> findCourses(){
         return List.of(
-                new Course(1L, "Spring", "2345", "Valentin"),
-                new Course(2L, "Java", "8976712","Alexandru"),
-                new Course(5L, "Gradinarit", "97245", "Veronica"),
-                new Course(4L, "Alpinism", "21398", "Costel")
+                new Course(1L, "Spring", "2345"),
+                new Course(2L, "Java", "8976712"),
+                new Course(5L, "Gradinarit", "97245"),
+                new Course(4L, "Alpinism", "21398")
         );
     }
     public List<Course> findAll(){

@@ -9,7 +9,6 @@ public class Student {
         private String firstName;
         private String lastName;
         private String email;
-        private List<Course> courses;
 
         public Student() {        }
 
@@ -45,20 +44,13 @@ public class Student {
                 this.email = email;
         }
 
-        public List<Course> getCourses() {
-                return courses;
-        }
 
-        public void setCourses(List<Course> courses) {
-                this.courses = courses;
-        }
-
-        public Student(Long id, String firstName, String lastName, String email, List<Course> courses) {
+        public Student(Long id, String firstName, String lastName, String email) {
                 this.id = id;
                 this.firstName = firstName;
                 this.lastName = lastName;
                 this.email = email;
-                this.courses = courses;
+
 
         }
 
@@ -66,12 +58,12 @@ public class Student {
         public boolean equals(Object o) {
                 if (o == null || getClass() != o.getClass()) return false;
                 Student student = (Student) o;
-                return Objects.equals(id, student.id) && Objects.equals(firstName, student.firstName) && Objects.equals(lastName, student.lastName) && Objects.equals(email, student.email) && Objects.equals(courses, student.courses);
+                return Objects.equals(id, student.id) && Objects.equals(firstName, student.firstName) && Objects.equals(lastName, student.lastName) && Objects.equals(email, student.email);
         }
 
         @Override
         public int hashCode() {
-                return Objects.hash(id, firstName, lastName, email, courses);
+                return Objects.hash(id, firstName, lastName, email);
         }
 
         @Override
@@ -81,7 +73,6 @@ public class Student {
                         ", firstName='" + firstName + '\'' +
                         ", lastName='" + lastName + '\'' +
                         ", email='" + email + '\'' +
-                        ", courses=" + courses +
                         '}';
         }
 }

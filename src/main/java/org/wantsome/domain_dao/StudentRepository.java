@@ -14,9 +14,9 @@ public class StudentRepository {
 
     public List<Student> findStudents(){
         return List.of(
-                new Student(23L, "Valentin", "Chiriac", "valentin@email.com", "Alpinism"),
-                new Student(34L, "Catinca", "Iliescu", "catinca@email.com", "Spring,Java"),
-                new Student(67L, "Emil", "Voicescu", "emil@email.com", "Gradinarit, Java")
+                new Student(23L, "Valentin", "Chiriac", "valentin@email.com"),
+                new Student(34L, "Catinca", "Iliescu", "catinca@email.com"),
+                new Student(67L, "Emil", "Voicescu", "emil@email.com")
         );
     }
     public List<Student> findAll(){

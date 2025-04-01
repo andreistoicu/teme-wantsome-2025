@@ -7,17 +7,18 @@ public class Course {
     private Long id;
     private String courseName;
     private String courseCode;
-    private List<Student> students;
 
     public Course(Long id, String courseName, String courseCode, List<Student> students) {
         this.id = id;
         this.courseName = courseName;
         this.courseCode = courseCode;
-        this.students = students;
     }
 
     public Course() {
 
+    }
+
+    public Course(long l, String spring, String number) {
     }
 
     public Long getId() {
@@ -44,24 +45,16 @@ public class Course {
         this.courseCode = courseCode;
     }
 
-    public List<Student> getStudents() {
-        return students;
-    }
-
-    public void setStudents(List<Student> students) {
-        this.students = students;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Course course = (Course) o;
-        return Objects.equals(id, course.id) && Objects.equals(courseName, course.courseName) && Objects.equals(courseCode, course.courseCode) && Objects.equals(students, course.students);
+        return Objects.equals(id, course.id) && Objects.equals(courseName, course.courseName) && Objects.equals(courseCode, course.courseCode);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, courseName, courseCode, students);
+        return Objects.hash(id, courseName, courseCode);
     }
 
     @Override
@@ -70,7 +63,6 @@ public class Course {
                 "id=" + id +
                 ", courseName='" + courseName + '\'' +
                 ", courseCode='" + courseCode + '\'' +
-                ", students=" + students +
                 '}';
     }
 }
