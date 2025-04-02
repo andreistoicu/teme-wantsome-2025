@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Account Form</title>
+</head>
+<body>
+<h1>Bank Account Form</h1>
+<form th:action="@{/submitAccount}" th:object="${bankAccountForm}" method="post">
+    <label for="accountNumber"> Account Number</label>
+    <input type="number" id="accountNumber" th:field="*{accountNumber}"/> <br/>
+
+
+    <label for="accountHolder" > Account Holder </label>
+    <input type="text" id="accountHolder" th:field="*{accountHolder}"/> <br>
+
+    <label for="balance"> Balance</label>
+    <input type="number" id="balance" th:field="*{balance}"/> <br/>
+
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Accounts</title>
+</head>
+<body>
+<h1>List of Accounts</h1>
+<ul>
+
+        <li th:each="account : ${accounts}">
+            <span th:text="${account.accountNumber}"></span> -
+            <span th:text="${account.accountHolder}"></span> -
+            <span th:text="${account.balance}"></span>
+        </li>
+
+
+</ul>
+</body>
+</html>
