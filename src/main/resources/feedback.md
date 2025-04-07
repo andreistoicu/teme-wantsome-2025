@@ -20,3 +20,17 @@ utilizam thymeleaf, trebuie sa folosim folderul de 'templates' din /resources, p
 il gaseste , e ca si cum nu l-ai fi facut
 
 oricum , per ansamblu bine, continua aceste cateva saptamani tot asa , apoi proiectul o sa iti para mult mai usor de facut
+
+
+**tema 4 - Spring - Courses**
+ca sa porneasca trebuia eliminata partea aia din Main de @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
+folosim acel exclude doar cand nu avem baze de date, insa acum folosim H2 ca ne jucam cu baza de date
+
+am vazut ca ai abordat exercitiul 1, e bine ca unele elemente le-ai folosit si pare ca deja incepi sa le stapanesti, mar refer aici la:
+crearea de layere si bean-uri, html-uri, controller, endpointuri, injetie de dependinte etc.
+
+este bine, ai avut doar cateva erori in html  ,lipsea o '}' si la Controller a fost mai mult de completat, insa arunca un ochi sa vezi .
+
+bravo!, te incurajez sa continui si cu restul exercitiului sau cu exercitiu 2
+
+
